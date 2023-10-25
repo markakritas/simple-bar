@@ -124,6 +124,8 @@ export const Widget = React.memo(() => {
     </div>
   );
 
+  const fillerWidth = percentage / 100;
+
   return (
     <DataWidget.Widget
       classes={classes}
@@ -137,6 +139,10 @@ export const Widget = React.memo(() => {
         </SuspenseIcon>
       )}
       {percentage}%
+      {<div
+        className="battery__filler"
+        style={{ transform: `scaleX(${fillerWidth})` }}
+      />}
     </DataWidget.Widget>
   );
 });

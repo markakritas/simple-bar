@@ -252,14 +252,14 @@ function render({ output, error }) {
           <Cpu.Widget />
           <Gpu.Widget />
           <Memory.Widget />
-          <Battery.Widget />
           <Mic.Widget />
           <Sound.Widget />
+          <Battery.Widget />
           <ViscosityVPN.Widget />
           <Wifi.Widget />
           <Keyboard.Widget />
-          <DateDisplay.Widget />
           <Time.Widget />
+          <DateDisplay.Widget />
         </div>
         <Missives.Component />
       </div>

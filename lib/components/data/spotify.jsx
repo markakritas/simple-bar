@@ -138,6 +138,7 @@ export const Widget = React.memo(() => {
       onMiddleClick={onMiddleClick}
       showSpecter={showSpecter && isPlaying}
     >
+      {/* {Icon && <Icon />} */}
       {label}
     </DataWidget.Widget>
   );

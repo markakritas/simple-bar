@@ -13,7 +13,7 @@ end replace_chars
 
 tell application "Firefox"
   set the_title to (name of windows whose name contains "- YouTube") as text
-  
+
   if "- YouTube" is in the_title then
     if active_tab is 0 then set title_string to " " & text 1 thru -11 of the_title
     set browser to "firefox"
@@ -21,4 +21,4 @@ tell application "Firefox"
   end if
 end tell
 
-return "{ \"browser\": \"" & browser & "\", \"title\": \"" & replace_chars(title_string, "\"", "Ò") & "\" }"
+return "{ \"browser\": \"" & browser & "\", \"title\": \"" & replace_chars(title_string, "\"", "ï¿½") & "\" }"
