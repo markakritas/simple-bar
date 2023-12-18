@@ -26,7 +26,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - yabai version [e.g. yabai-v6.0.1] (output of `yabai --version`)
 - Übersicht version [e.g. Version 1.6 (82)]
 
-# Checklist:
+# Checklist
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my code
