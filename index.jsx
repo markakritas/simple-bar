@@ -250,14 +250,12 @@ function render({ output, error }) {
           <Weather.Widget />
           <Netstats.Widget />
           <Cpu.Widget />
-          <Gpu.Widget />
-          <Memory.Widget />
-          <Mic.Widget />
-          <Sound.Widget />
-          <Battery.Widget />
           <ViscosityVPN.Widget />
           <Wifi.Widget />
           <Keyboard.Widget />
+          <Mic.Widget />
+          <Sound.Widget />
+          <Battery.Widget />
           <Time.Widget />
           <DateDisplay.Widget />
         </div>
