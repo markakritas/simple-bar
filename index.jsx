@@ -238,7 +238,6 @@ function render({ output, error }) {
         </React.Suspense>
         <Settings.Wrapper />
         <div className="simple-bar__data">
-          <UserWidgets />
           <Zoom.Widget />
           <BrowserTrack.Widget />
           <Spotify.Widget />
